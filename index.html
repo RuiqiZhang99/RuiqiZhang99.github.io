@@ -77,11 +77,10 @@
   </div>
   <div class="title">About Me</div>
   <p>
-    I am currently a fourth year undergraduate of Automotive Engineering in Tongji University. I'm also a researcher of
+    I am currently an undergraduate of Automotive Engineering in Tongji University. I'm also a researcher of
     <a href="https://ispc-group.github.io/" target="_blank">Intelligent Sensing, Perception and Computing (ISPC) Group</a>
-    and supervised by Prof. Guang Chen. I will finish my undergraduate career in 2023 FALL and I am chasing my Ph.D. position now.
-    My research interests mainly focus on <b>Robotics</b>, <b>Reinforcement Learning</b>, <b>Autonomous Driving</b> and <b>Vision</b>. My CV can be downloaded from 
-    <a href="assets/pdfs/CV_zrq.pdf" target="_blank">Here</a>.
+    and supervised by Prof. Guang Chen. I will finish my undergraduate career in 2023 FALL and chase my PH.D.
+    My research interests mainly focus on <b>Robotics</b>, <b>Reinforcement Learning</b>, <b>Autonomous Driving</b> and <b>Vision</b>..
   </p>
 </div>
 <!-- === Home Section Ends === -->
@@ -145,14 +144,16 @@
       <img src="assets/figures/spreeze.png">
     </div>
     <div class="text">
-      <b>Spreeze: High Throughput Parallel Reinforcement Learning Framework</b><br>
+      <b>SPEEZE: High-Throughput Parallel Reinforcement Learning Framework</b><br>
       <i>Jing Hou, Guang Chen<sup>*</sup>, <b>Ruiqi Zhang</b>, Zhijun Li, Changjun Jiang</i><br>
       Submitted to <i><b>International Joint Conference on Artificial Intelligence (IJCAI-2022)</b></i><br>
       [<a href="assets/pdfs/spreeze.pdf", target="_blank">Pre-Print</a>]
       [<a href="https://github.com/GemHou/MVMP", target="_blank">Code</a>]<br>
       In this paper, we propose a high-throughput RL framework Spreeze, which utilizes parallel GPUs to update actor-critic networks independently 
-      and achieve the asynchronous sampling through the lock mechanism and queue. 
-      On the five RL benchmarks, our method significantly outperforms previous RL frameworks. <br>
+      and achieve the asynchronous sampling through the lock mechanism and queue. The framework can automatically adjust the parallelization hyperparameters 
+      according to the computing power of the hardware device to achieve efficient large-batch updates.
+      The simulation results show that our framework can achieve up to 15,000Hz experience sampling and 370,000Hz network update frame rate with only a personal desktop computer 
+      and significantly improve the training efficiency.<br>
     </div>
   </div>
   
